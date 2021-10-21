@@ -1,0 +1,19 @@
+.footer-social {
+  width: 206px;
+  margin-right: 90px;
+}
+.footer-headline {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}
+.footer-social-link {
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link .social-icon {
+  fill: var(--primary-title-color);
+}

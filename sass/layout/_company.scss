@@ -1,0 +1,33 @@
+.company {
+  margin-right: 30px;
+  width: 170px;
+  height: 92px;
+}
+.company:last-child {
+  margin-right: 0;
+}
+.company-link {
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--social-icon-color);
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border var(--timing-duration) var(--timing-function);
+}
+.company-link:hover,
+.company-link:focus {
+  border: 1px solid var(--accent-color);
+}
+.company-icon {
+  width: 106px;
+  height: 60px;
+  fill: var(--social-icon-color);
+  transition: fill var(--timing-duration) var(--timing-function);
+}
+.company-link:hover .company-icon,
+.company-link:focus .company-icon {
+  fill: var(--accent-color);
+}

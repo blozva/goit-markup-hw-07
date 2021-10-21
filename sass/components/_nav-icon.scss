@@ -1,0 +1,13 @@
+.nav-icon {
+  margin-right: 10px;
+  fill: var(--text-item-color);
+  transition: fill var(--timing-duration) var(--timing-function);
+}
+.nav-icon-envelope {
+  height: 12px;
+  width: 16px;
+}
+.nav-icon-smartphone {
+  height: 16px;
+  width: 10px;
+}

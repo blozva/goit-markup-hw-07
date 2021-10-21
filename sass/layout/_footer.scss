@@ -1,0 +1,37 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: var(--section-aside-color);
+}
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-address {
+  width: 231px;
+  margin-right: 70px;
+}
+.maps {
+  color: var(--primary-title-color);
+}
+.address__link {
+  height: 21px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--text-item-color);
+  color: rgba(255, 255, 255, 0.6);
+  transition: color var(--timing-duration) var(--timing-function);
+}
+.address__nav {
+  display: flex;
+  font-style: normal;
+  flex-direction: column;
+}
+.address__row:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address__link:hover,
+.address__link:focus {
+  color: var(--accent-color);
+}
