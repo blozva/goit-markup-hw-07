@@ -8,11 +8,11 @@
   background-color: var(--primary-title-color);
   fill: #000000;
   transition: fill var(--timing-duration) var(--timing-function);
-}
-.close-btn:hover {
-  fill: var(--accent-color);
-}
-.close-btn-icon {
-  width: 30px;
-  height: 30px;
+  &:hover {
+    fill: var(--accent-color);
+  }
+  & .close-btn-icon {
+    width: 30px;
+    height: 30px;
+  }
 }

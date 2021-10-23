@@ -9,6 +9,12 @@
   margin-right: 30px;
   height: 251px;
   width: 270px;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 .card-set {
   display: flex;
@@ -18,12 +24,7 @@
   background: var(--section-secondary-color);
   border-radius: 4px;
 }
-.benefits-items:last-child {
-  margin-right: 0;
-}
-.benefits-items:not(:last-child) {
-  margin-right: 30px;
-}
+
 .title-items {
   margin-top: 30px;
   font-weight: 700;
@@ -39,7 +40,7 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-item-color);
-}
-.text-items:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }

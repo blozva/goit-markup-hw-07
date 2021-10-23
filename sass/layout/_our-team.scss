@@ -13,10 +13,11 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-title-color);
+  &:last-child {
+    margin-right: 0;
+  }
 }
-.people:last-child {
-  margin-right: 0;
-}
+
 .people-item {
   padding-top: 30px;
   padding-bottom: 30px;

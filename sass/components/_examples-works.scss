@@ -6,9 +6,15 @@
   flex-wrap: wrap;
   margin-right: -30px;
 }
+
 .pictures-work {
   position: relative;
+  &:not(:last-child) {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-right: 30px;
+  }
 }
+
 .pictures-label {
   font-weight: 700;
   font-size: 14px;
@@ -22,8 +28,4 @@
   padding: 27px 82px;
   position: absolute;
   bottom: 0;
-}
-.pictures-work:not(:last-child) {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-right: 30px;
 }

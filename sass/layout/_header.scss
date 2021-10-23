@@ -26,14 +26,13 @@
   color: var(--title-text-color);
   position: relative;
   transition: color var(--timing-duration) var(--timing-function);
+  &:hover,
+  &:focus,
+  &.current {
+    color: var(--accent-color);
+  }
 }
-.site-nav-link:hover,
-.site-nav-link:focus {
-  color: var(--accent-color);
-}
-.site-nav-link.current {
-  color: var(--accent-color);
-}
+
 .current::after {
   content: "";
   position: absolute;
@@ -61,8 +60,12 @@
   display: flex;
   align-items: center;
   transition: color var(--timing-duration) var(--timing-function);
-}
-.auth-nav-link:hover,
-.auth-nav-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+  &:hover .nav-icon,
+  &:focus .nav-icon {
+    fill: var(--accent-color);
+  }
 }

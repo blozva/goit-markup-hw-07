@@ -13,8 +13,8 @@
   text-align: center;
   cursor: pointer;
   transition: background-color var(--timing-duration) var(--timing-function);
-}
-.hero-button:hover,
-.hero-button:focus {
-  background-color: #188ce8;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }

@@ -44,13 +44,14 @@
   outline: 0px;
   padding-left: 42px;
   transition: border-color var(--timing-duration) var(--timing-function);
+  &:focus {
+    border-color: var(--accent-color);
+  }
+  &:focus + .modal-icon {
+    fill: var(--accent-color);
+  }
 }
-.modal-input:focus {
-  border-color: var(--accent-color);
-}
-.modal-input:focus + .modal-icon {
-  fill: var(--accent-color);
-}
+
 .modal-icon {
   position: absolute;
   left: 12px;
@@ -74,7 +75,7 @@
   border: 1px solid rgba(33, 33, 33, 0.2);
   outline: 0px;
   transition: border-color var(--timing-duration) var(--timing-function);
-}
-.textarea-comment:focus {
-  border-color: var(--accent-color);
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }

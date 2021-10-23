@@ -4,13 +4,14 @@
   line-height: 1.19;
   margin-right: 95px;
   color: var(--accent-color);
+  & .text {
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--title-text-color);
+  }
 }
-.logo .text {
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  line-height: 1.19;
-  color: var(--title-text-color);
-}
+
 .footer .logo {
   margin-bottom: 20px;
 }
