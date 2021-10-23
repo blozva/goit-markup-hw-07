@@ -11,11 +11,6 @@
   cursor: pointer;
   justify-content: center;
 }
-.modal-text {
-  color: var(--accent-color);
-  text-decoration: underline;
-  padding-left: 4px;
-}
 .contour-checkbox {
   width: 16px;
   height: 15px;
@@ -37,4 +32,9 @@
 .check-icon {
   width: 11px;
   height: 8px;
+}
+.modal-text {
+  color: var(--accent-color);
+  text-decoration: underline;
+  padding-left: 4px;
 }

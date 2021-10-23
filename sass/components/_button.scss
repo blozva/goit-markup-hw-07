@@ -1,4 +1,4 @@
-.button {
+.hero-button {
   padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
@@ -14,7 +14,7 @@
   cursor: pointer;
   transition: background-color var(--timing-duration) var(--timing-function);
 }
-.button:hover,
-.button:focus {
+.hero-button:hover,
+.hero-button:focus {
   background-color: #188ce8;
 }

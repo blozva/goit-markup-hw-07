@@ -1,7 +1,7 @@
-.form-online {
+.footer-online-form {
   display: flex;
 }
-.online-input {
+.footer-online-input {
   padding: 15px 16px;
   margin-right: 12px;
   width: 358px;
@@ -14,23 +14,23 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   outline: 0px;
 }
-.online-input:focus {
+.footer-online-input:focus {
   border-color: var(--accent-color);
 }
-.form-online::placeholder {
+.footer-online-form::placeholder {
   width: 47px;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-.online-btn {
+.footer-online-btn {
   padding: 10px 28px;
   width: 200px;
   color: var(--primary-title-color);
   display: flex;
 }
-.online-btn-icon {
+.footer-btn-icon {
   height: 24px;
   width: 24px;
   margin-left: 10px;

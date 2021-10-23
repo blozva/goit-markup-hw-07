@@ -4,8 +4,8 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--primary-title-color);
 }
-
-.link {
+img {
   display: block;
-  text-decoration: none;
+  max-width: 100%;
+  height: auto;
 }

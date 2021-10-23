@@ -12,8 +12,9 @@ ul {
   padding-left: 0;
   list-style: none;
 }
-img {
+
+a {
   display: block;
-  max-width: 100%;
-  height: auto;
+  text-decoration: none;
+  font-style: normal;
 }

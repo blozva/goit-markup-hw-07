@@ -1,14 +1,16 @@
+.section.section-benefits {
+  padding-bottom: 47px;
+}
 .benefits {
   display: flex;
   flex-wrap: wrap;
 }
-.items-benefits {
+.benefits-items {
   margin-right: 30px;
   height: 251px;
   width: 270px;
 }
-
-.items-cartons {
+.card-set {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,13 +18,13 @@
   background: var(--section-secondary-color);
   border-radius: 4px;
 }
-.items-benefits:last-child {
+.benefits-items:last-child {
   margin-right: 0;
 }
-.items-benefits:not(:last-child) {
+.benefits-items:not(:last-child) {
   margin-right: 30px;
 }
-.items-title {
+.title-items {
   margin-top: 30px;
   font-weight: 700;
   font-size: 14px;
@@ -30,7 +32,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.items-text {
+.text-items {
   margin-top: 10px;
   font-weight: 400;
   font-size: 14px;
@@ -38,6 +40,6 @@
   letter-spacing: 0.03em;
   color: var(--text-item-color);
 }
-.items-text:not(:last-child) {
+.text-items:not(:last-child) {
   margin-right: 30px;
 }

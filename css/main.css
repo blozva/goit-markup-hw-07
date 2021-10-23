@@ -213,7 +213,9 @@ img {
   cursor: pointer;
   transition: background-color var(--timing-duration) var(--timing-function);
 }
-.hero-button:hover, .hero-button:focus {
+
+.hero-button:hover,
+.hero-button:focus {
   background-color: #188ce8;
 }
 
@@ -725,6 +727,7 @@ img {
   opacity: 1;
   transition: opacity var(--timing-duration) var(--timing-function);
 }
+
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
