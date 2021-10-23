@@ -1,9 +1,13 @@
 .company {
+  display: flex;
+  flex-wrap: wrap;
+}
+.company-partner {
   margin-right: 30px;
   width: 170px;
   height: 92px;
 }
-.company:last-child {
+.company-partner:last-child {
   margin-right: 0;
 }
 .company-link {
