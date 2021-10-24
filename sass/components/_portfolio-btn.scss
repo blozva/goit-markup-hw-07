@@ -4,8 +4,10 @@
   margin-bottom: 50px;
   width: 611px;
 }
-.desc-nav:not(:last-child) {
-  margin-right: 8px;
+.desc-nav {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
 .desc-button {
   padding: 6px 22px;

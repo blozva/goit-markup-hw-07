@@ -21,21 +21,21 @@
 .people-item {
   padding-top: 30px;
   padding-bottom: 30px;
-}
-.people-name {
-  margin-bottom: 10px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.18;
-  text-align: center;
-  color: var(--title-text-color);
-}
-.people-position {
-  margin-bottom: 16px;
-  text-align: center;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--text-item-color);
+  .people-name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--title-text-color);
+  }
+  .people-position {
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--text-item-color);
+  }
 }

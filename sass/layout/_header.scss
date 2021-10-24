@@ -14,10 +14,11 @@
 .site-nav {
   display: flex;
   align-items: center;
+  .site-nav-item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
-.site-nav-item:not(:last-child) {
-  margin-right: 50px;
-}
+
 .site-nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -43,14 +44,16 @@
   background-color: var(--accent-color);
   bottom: -40px;
 }
+
 .auth-nav {
   display: flex;
   margin-left: auto;
   align-items: center;
+  .auth-nav-item:not(:last-child) {
+    margin-right: 50px;
+  }
 }
-.auth-nav-item:not(:last-child) {
-  margin-right: 50px;
-}
+
 .auth-nav-link {
   font-weight: 500;
   font-size: 14px;
@@ -63,9 +66,5 @@
   &:hover,
   &:focus {
     color: var(--accent-color);
-  }
-  &:hover .nav-icon,
-  &:focus .nav-icon {
-    fill: var(--accent-color);
   }
 }

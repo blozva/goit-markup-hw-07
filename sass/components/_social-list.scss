@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
 }
+
 .social-item {
   margin-right: 10px;
   width: 44px;
@@ -24,10 +25,6 @@
   &:focus {
     background-color: var(--accent-color);
   }
-  &:hover .social-icon,
-  &:focus .social-icon {
-    fill: var(--primary-title-color);
-  }
 }
 
 .social-icon {
@@ -35,4 +32,8 @@
   height: 20px;
   fill: var(--social-icon-color);
   transition: fill var(--timing-duration) var(--timing-function);
+  .social-link:hover &,
+  .social-link:focus & {
+    fill: var(--primary-title-color);
+  }
 }
