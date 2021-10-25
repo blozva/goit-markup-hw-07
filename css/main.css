@@ -227,6 +227,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   border-radius: 4px;
   color: var(--title-text-color);
   background-color: var(--section-secondary-color);
@@ -523,7 +524,7 @@ img {
 }
 
 .address-link {
-  height: 21px;
+  line-height: 1.71;
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.03em;
