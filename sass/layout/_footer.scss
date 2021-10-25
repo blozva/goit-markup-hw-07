@@ -20,7 +20,7 @@
   margin-bottom: 9px;
 }
 .address-link {
-  @include font(400, 14px, 1,71);
+  @include font(400, 14px, 1, 71);
   color: var(--text-item-color);
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--timing-duration) var(--timing-function);
@@ -29,5 +29,6 @@
     color: var(--accent-color);
   }
   &.maps {
-  color: var(--primary-title-color);
+    color: var(--primary-title-color);
+  }
 }
