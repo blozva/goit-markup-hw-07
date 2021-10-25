@@ -18,8 +18,7 @@
   border: 1px solid var(--social-icon-color);
   box-sizing: border-box;
   border-radius: 4px;
-  display: flex;
-  align-items: center;
+  @include flex();
   justify-content: center;
   transition: border var(--timing-duration) var(--timing-function);
   .company-icon {

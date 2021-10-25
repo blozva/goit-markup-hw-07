@@ -12,8 +12,7 @@
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--text-item-color);
-  display: flex;
-  align-items: center;
+  @include flex();
   cursor: pointer;
   justify-content: center;
 }
@@ -25,8 +24,7 @@
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   margin-right: 7px;
-  display: flex;
-  align-items: center;
+  @include flex();
   justify-content: center;
   transition: background-color var(--timing-duration) var(--timing-function);
 }

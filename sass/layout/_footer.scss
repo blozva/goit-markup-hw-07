@@ -20,10 +20,7 @@
   margin-bottom: 9px;
 }
 .address-link {
-  line-height: 1,71;
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 1,71);
   color: var(--text-item-color);
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--timing-duration) var(--timing-function);

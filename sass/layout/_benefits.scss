@@ -17,8 +17,7 @@
   }
 }
 .card-set {
-  display: flex;
-  align-items: center;
+  @include flex();
   justify-content: center;
   height: 120px;
   background: var(--section-secondary-color);
@@ -27,18 +26,12 @@
 
 .title-items {
   margin-top: 30px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font(700, 14px, 1.14);
   text-transform: uppercase;
 }
 .text-items {
   margin-top: 10px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 1.71);
   color: var(--text-item-color);
   &:not(:last-child) {
     margin-right: 30px;
