@@ -4,14 +4,16 @@
   margin-bottom: 50px;
   width: 611px;
 }
-.desc-nav {
+.desc-portfolio__desc-nav {
   &:not(:last-child) {
     margin-right: 8px;
   }
 }
-.desc-button {
+.desc-portfolio__desc-button {
+  width: 100%;
   padding: 6px 22px;
-  @include font(500, 16px, 1.62);
+  //height: 38px;
+  @include font(500, 16px, 26px);
   border-radius: 4px;
   color: var(--title-text-color);
   background-color: var(--section-secondary-color);

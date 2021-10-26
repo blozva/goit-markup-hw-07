@@ -11,13 +11,13 @@
 }
 .site-nav {
   @include flex();
-  .site-nav-item:not(:last-child) {
+  .site-nav__item:not(:last-child) {
     margin-right: 50px;
   }
 }
 
 .site-nav-link {
-  @include font(500, 14px, 1.14, 0.02em);
+  @include font(500, 14px, 16px, 0.02em);
   color: var(--title-text-color);
   position: relative;
   transition: color var(--timing-duration) var(--timing-function);
@@ -42,13 +42,13 @@
 .auth-nav {
   @include flex();
   margin-left: auto;
-  .auth-nav-item:not(:last-child) {
+  .auth-nav__item:not(:last-child) {
     margin-right: 50px;
   }
 }
 
 .auth-nav-link {
-  @include font(500, 14px, 1.14, 0.02em);
+  @include font(500, 14px, 16px, 0.02em);
   color: var(--text-item-color);
   @include flex();
   transition: color var(--timing-duration) var(--timing-function);
