@@ -337,10 +337,10 @@ img {
   margin-right: -30px;
 }
 
-.pictures-detail {
+.pictures-list__detail {
   position: relative;
 }
-.pictures-detail:not(:last-child) {
+.pictures-list__detail:not(:last-child) {
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
 }

@@ -7,7 +7,7 @@
   margin-right: -30px;
 }
 
-.pictures-detail {
+.pictures-list__detail {
   position: relative;
   &:not(:last-child) {
     flex-basis: calc(100% / 3 - 30px);
