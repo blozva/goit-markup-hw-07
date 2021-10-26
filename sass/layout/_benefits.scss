@@ -1,11 +1,11 @@
-.section.section-benefits {
+.section.benefits {
   padding-bottom: 47px;
 }
-.benefits {
+.benefits-list {
   display: flex;
   flex-wrap: wrap;
 }
-.benefits-items {
+.benefits-list__item {
   margin-right: 30px;
   height: 251px;
   width: 270px;
@@ -16,7 +16,7 @@
     margin-right: 30px;
   }
 }
-.card-set {
+.benefits-list__card {
   @include flex();
   justify-content: center;
   height: 120px;
@@ -24,12 +24,12 @@
   border-radius: 4px;
 }
 
-.title-items {
+.benefits-list__title {
   margin-top: 30px;
   @include font(700, 14px, 1.14);
   text-transform: uppercase;
 }
-.text-items {
+.benefits-list__text {
   margin-top: 10px;
   @include font(400, 14px, 1.71);
   color: var(--text-item-color);

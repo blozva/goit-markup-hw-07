@@ -1,15 +1,15 @@
-.desc-portfolio {
+.portfolio {
   display: flex;
   margin: auto;
   margin-bottom: 50px;
   width: 611px;
 }
-.desc-portfolio__desc-nav {
+.portfolio__nav-item {
   &:not(:last-child) {
     margin-right: 8px;
   }
 }
-.desc-portfolio__desc-button {
+.portfolio__nav-button {
   width: 100%;
   padding: 6px 22px;
   //height: 38px;

@@ -1,13 +1,13 @@
-.section.section-work {
+.section.work {
   padding-top: 47px;
 }
-.pictures {
+.pictures-list {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
 }
 
-.pictures-work {
+.pictures-detail {
   position: relative;
   &:not(:last-child) {
     flex-basis: calc(100% / 3 - 30px);
@@ -15,7 +15,7 @@
   }
 }
 
-.pictures-label {
+.pictures-text {
   @include font(700, 14px, 1.14);
   text-align: center;
   text-transform: uppercase;
