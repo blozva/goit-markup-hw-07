@@ -1,8 +1,5 @@
-@import "./utils/vars";
-@import "./base/reset";
-@import "./utils/hidden";
-@import "./base/common";
-@import "./utils/mixin";
+@import "./utils/index";
+@import "./base/index";
 @import "./components/container";
 @import "./layout/section";
 @import "./components/logo";

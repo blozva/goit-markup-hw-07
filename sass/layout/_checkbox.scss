@@ -9,7 +9,7 @@
 
 .label-checkbox {
   font-size: 14px;
-  line-height: 1.7;
+  line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--text-item-color);
   @include flex();

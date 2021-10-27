@@ -1,11 +1,11 @@
-.section.section-team {
+.section.team {
   background-color: var(--section-secondary-color);
 }
-.team {
+.team-list {
   display: flex;
   flex-wrap: wrap;
 }
-.people {
+.team-list__item {
   margin-right: 30px;
   width: 270px;
   height: 428px;
@@ -18,19 +18,19 @@
   }
 }
 
-.people-item {
+.team-list__people {
   padding-top: 30px;
   padding-bottom: 30px;
-  .people-name {
+  .team-list__name {
     margin-bottom: 10px;
-    @include font(500, 16px, 1.18);
+    @include font(500, 16px, 19px);
     text-align: center;
     color: var(--title-text-color);
   }
-  .people-position {
+  .team-list__position {
     margin-bottom: 16px;
     text-align: center;
-    @include font(400, 16px, 1.18);
+    @include font(400, 16px, 19px);
     color: var(--text-item-color);
   }
 }

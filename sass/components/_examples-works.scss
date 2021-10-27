@@ -1,4 +1,4 @@
-.section.work {
+.section.pictures {
   padding-top: 47px;
 }
 .pictures-list {
@@ -7,7 +7,7 @@
   margin-right: -30px;
 }
 
-.pictures-list__detail {
+.pictures-list__item {
   position: relative;
   &:not(:last-child) {
     flex-basis: calc(100% / 3 - 30px);
@@ -16,7 +16,7 @@
 }
 
 .pictures-text {
-  @include font(700, 14px, 1.14);
+  @include font(700, 14px, 16px);
   text-align: center;
   text-transform: uppercase;
   color: var(--primary-title-color);

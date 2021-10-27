@@ -55,12 +55,12 @@
   border: 1px solid #eeeeee;
   border-top: 0;
   .text {
-    @include font(400, 16px, 1, 87);
+    @include font(400, 16px, 30px);
     color: var(--text-item-color);
   }
 }
 .caption {
   margin-bottom: 4px;
-  @include font(700, 18px, 2, 0.06em);
+  @include font(700, 18px, 36px, 0.06em);
   color: var(--title-text-color);
 }

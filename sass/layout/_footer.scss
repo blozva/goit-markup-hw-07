@@ -16,11 +16,11 @@
   font-style: normal;
   flex-direction: column;
 }
-.address-row:not(:last-child) {
+.address-list__row:not(:last-child) {
   margin-bottom: 9px;
 }
-.address-link {
-  @include font(400, 14px, 1, 71);
+.address-list__link {
+  @include font(400, 14px, 24px);
   color: var(--text-item-color);
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--timing-duration) var(--timing-function);
